@@ -18,5 +18,4 @@ public class Rectangle extends Shape {
         double area = width * height;
         return area;
     }
-
 }

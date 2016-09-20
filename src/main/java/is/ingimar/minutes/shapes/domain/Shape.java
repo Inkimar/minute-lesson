@@ -25,18 +25,14 @@ public abstract class Shape {
      * @param shape
      * @return  
      **/
-    
-    public String compareArea(Shape shape) {
-
+    public final String compareArea(Shape shape) {
         if (this.getArea() > shape.getArea()) {
             return this + " area is greater than " + shape + " area";
         }
         if (this.getArea() < shape.getArea()) {
             return shape + " area is greater than the " + this + " area";
         }
-
-        return "the area are the same";
-
+        return "same area";
     }
 
     @Override
