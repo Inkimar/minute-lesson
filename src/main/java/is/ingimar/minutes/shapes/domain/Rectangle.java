@@ -9,6 +9,8 @@ public class Rectangle extends Shape {
     private final double height;
 
     public Rectangle(double width, double height){
+        
+        super("Rectangle shape"); // overriding the default name in super-class
         this.width=width;
         this.height=height;
     }

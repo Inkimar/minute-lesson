@@ -1,13 +1,11 @@
 package is.ingimar.minutes.shapes.domain;
 
-/**
- * Created by root on 9/17/16.
- */
 public class Circle extends Shape{
 
     private double radius;
 
     public Circle(double radius) {
+        // no call to super, I do not override name ....
         this.radius = radius;
     }
     
